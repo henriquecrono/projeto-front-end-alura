@@ -1,0 +1,74 @@
+body{
+    
+}
+.container {
+	width: 94%;
+	margin: 0 auto;
+}
+header{
+    background: url(../img/destaque.jpeg) no-repeat;
+    background-size: cover;
+    padding-top: 2rem;
+}
+.menu-principal{
+    text-align: center;
+}
+.menu-principal .item-menu{
+    display: inline-block;
+    margin: 0 .2rem 2rem 0;
+}
+.menu-principal .item-menu a{
+    color: white;
+    padding: 1rem;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: background-color .5s;
+}
+.menu-principal .item-menu a:hover{
+    background-color: #48A3A6;
+}
+.jumbotron{
+    padding-bottom: 3rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+.chamada-conf{
+    color: white;
+    text-shadow: 4px 4px 10px black;
+}
+.chamada-conf .titulo{
+    font-size: 3rem;
+}
+.chamada-conf .subtitulo{
+    font-size: 2.7rem;
+    margin-top: .2rem;
+    color: lawngreen;
+}
+.jumbotron .painel-inscrever{
+    margin-top: 1.2rem;
+    font-size: 1rem;
+}
+.jumbotron .botao{
+    display: inline-block;
+    text-decoration: none;
+    box-shadow: 2px 2px 2px black;
+    color: white;
+    background-color: #48A3A6;
+    padding: 2rem 3rem;
+    border-radius: 10px;
+}
+
+@media (min-width: 700px){
+    .jumbotron .titulo{
+        font-size: 5rem;
+    }
+    .jumbotron .subtitulo{
+        font-size: 4.7rem;
+    }
+    .jumbotron .painel-inscrever{
+        font-size: 1.5rem;
+    }
+}
+
