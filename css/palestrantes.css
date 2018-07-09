@@ -1,0 +1,14 @@
+.painel-palestrantes{
+    background-color: orange;
+}
+.palestrantes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.palestrante{
+    background-color: white;
+    margin: 16px;
+    padding: 16px;
+    border-radius: 16px;
+}
