@@ -1,0 +1,37 @@
+.secao-formulario{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.secao-formulario .titulo{
+    color: #ff6600;
+    font-size: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+.secao-formulario .form-label{
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.secao-formulario .form-input{
+    width: 98%;
+    border-radius: 4px;
+    box-shadow: 0 0 4px #48A3A6;
+    border: 1px solid black;
+    margin: .6rem 0;
+    font-size: 1.1rem;
+    height: 1.8rem;
+    padding: 5px;
+}
+.secao-formulario .sec-button{
+    text-align: center;
+}
+.secao-formulario .form-button{
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.1rem;
+    background-color: #48A3A6;
+    padding: 1.5rem 3rem;
+    border-radius: 10px;
+}
