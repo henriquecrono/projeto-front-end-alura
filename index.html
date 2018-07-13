@@ -15,8 +15,8 @@
         <header class="container">
             <nav>
                 <ul class="menu-principal">
-                    <li class="item-menu"><a href="#">Sobre</a></li>
-                    <li class="item-menu"><a href="#">Palestrantes</a></li>
+                    <li class="item-menu"><a href="#painel-descricao">Sobre</a></li>
+                    <li class="item-menu"><a href="#painel-palestrantes">Palestrantes</a></li>
                 </ul>
             </nav>
             <div class="jumbotron">
@@ -25,12 +25,12 @@
                     <h2 class="subtitulo">30Maio|Rio</h2>
                 </section>
                 <section class="painel-inscrever">
-                    <a href="#" class="botao">Inscreva-se</a>
+                    <a href="#secao-formulario" class="botao">Inscreva-se</a>
                 </section>
             </div>
         </header>
         <main>
-            <section class="painel-descricao container">
+            <section class="painel-descricao container" id="painel-descricao">
                 <h2 class="titulo">Muito conteúdo: do frontend ao backend</h2>
                 <h3 class="subtitulo">30 de maio de 2017 - na Cidade Maravilhosa</h3>
 
@@ -46,7 +46,7 @@
                     </p>
                 </div>
             </section>
-            <section class="painel-palestrantes container">
+            <section class="painel-palestrantes container" id="painel-palestrantes">
                 <div class="sobre-palestrantes">
                     <h2 class="titulo">Palestrantes</h2>
                     <h3 class="subtitulo">Aprenda com palestrantes que são referências no mercado</h3>
@@ -112,7 +112,7 @@
                     </li>
                 </ul>
             </section>
-            <section class="secao-formulario container">
+            <section class="secao-formulario container" id="secao-formulario">
                 <form>
                     <h2 class="titulo">Seus Dados</h2>
                     <label class="form-label" for="name">Nome</label>
@@ -127,5 +127,7 @@
                 </form>
             </section>
         </main>
+        <script src="js/jquery.js"></script>
+        <script src="js/scroll.js"></script>
     </body>
 </html>
